@@ -1,0 +1,957 @@
+[
+{
+  "model": "ice_cream.category",
+  "pk": 1,
+  "fields": {
+    "is_published": true,
+    "title": "Ð­ÐºÐ·Ð¾Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ",
+    "slug": "exotic",
+    "output_order": 100
+  }
+},
+{
+  "model": "ice_cream.category",
+  "pk": 2,
+  "fields": {
+    "is_published": true,
+    "title": "ÐžÐ±Ñ‹Ñ‡Ð½Ð¾Ðµ",
+    "slug": "normal",
+    "output_order": 100
+  }
+},
+{
+  "model": "ice_cream.topping",
+  "pk": 1,
+  "fields": {
+    "is_published": true,
+    "title": "Ð¨Ð¾ÐºÐ¾Ð»Ð°Ð´Ð½Ñ‹Ð¹ Sgroppino (ÑˆÐ¾ÐºÐ¾Ð»Ð°Ð´ Ð¸ Ð»Ð¸Ð¼Ð¾Ð½Ð½Ñ‹Ð¹ ÑˆÐµÑ€Ð±ÐµÑ‚)",
+    "slug": "choco_sgroppino"
+  }
+},
+{
+  "model": "ice_cream.topping",
+  "pk": 2,
+  "fields": {
+    "is_published": true,
+    "title": "Chilli pandilla (Ð¿ÐµÑ€ÐµÑ† Ð¸ Ð¼Ñ‘Ð´)",
+    "slug": "chilli_pandilla"
+  }
+},
+{
+  "model": "ice_cream.topping",
+  "pk": 3,
+  "fields": {
+    "is_published": true,
+    "title": "Vari marmellata (Ð°ÑÑÐ¾Ñ€Ñ‚Ð¸ Ð¸Ð· Ð²Ð°Ñ€ÐµÐ½ÑŒÑ)",
+    "slug": "vari_marmellata"
+  }
+},
+{
+  "model": "ice_cream.topping",
+  "pk": 4,
+  "fields": {
+    "is_published": true,
+    "title": "ÐšÐ¸ÑÐµÐ»ÑŒÐ½Ñ‹Ðµ Ð±ÐµÑ€ÐµÐ³Ð° (ÐºÐ»ÑŽÐºÐ²ÐµÐ½Ð½Ñ‹Ð¹ ÐºÐ¸ÑÐµÐ»ÑŒ)",
+    "slug": "kissel"
+  }
+},
+{
+  "model": "ice_cream.topping",
+  "pk": 5,
+  "fields": {
+    "is_published": true,
+    "title": "Ð’Ð¸Ð»Ð»Ð¸ Ð’Ð¾Ð½ÐºÐ° (ÑˆÐ¾ÐºÐ¾Ð»Ð°Ð´Ð½Ñ‹Ð¹ ÑÐ¾ÑƒÑ)",
+    "slug": "villi_vonka"
+  }
+},
+{
+  "model": "ice_cream.topping",
+  "pk": 6,
+  "fields": {
+    "is_published": true,
+    "title": "Honey pot (Ð°ÑÑÐ¾Ñ€Ñ‚Ð¸ Ð¸Ð· Ð¼Ñ‘Ð´Ð°)",
+    "slug": "honey_pot"
+  }
+},
+{
+  "model": "ice_cream.topping",
+  "pk": 7,
+  "fields": {
+    "is_published": true,
+    "title": "Ð¡Ð»Ð°Ð´ÐºÐ¸Ð¹ Ñ‚Ð¾Ð¿ (ÐºÐ¾ÐºÑ‚ÐµÐ¹Ð»ÑŒ Ð¸Ð· ÑÐ³ÑƒÑ‰Ñ‘Ð½ÐºÐ¸, Ð¼Ñ‘Ð´Ð° Ð¸ ÑÐ°Ñ…Ð°Ñ€Ð½Ð¾Ð³Ð¾ ÑÐ¸Ñ€Ð¾Ð¿Ð°)",
+    "slug": "sweet_top"
+  }
+},
+{
+  "model": "ice_cream.wrapper",
+  "pk": 1,
+  "fields": {
+    "is_published": false,
+    "title": "Ð‘ÑƒÐ¼Ð°Ð¶Ð½Ð°Ñ Ñ Ñ‡ÐµÑ€ÐµÐ¿Ð°Ð¼Ð¸"
+  }
+},
+{
+  "model": "ice_cream.wrapper",
+  "pk": 2,
+  "fields": {
+    "is_published": true,
+    "title": "Ð¢ÐºÐ°Ð½ÐµÐ²Ð°Ñ Ð¾Ð±Ñ‘Ñ€Ñ‚ÐºÐ°-Ð±Ð°Ð½Ð´Ð°Ð½Ð°"
+  }
+},
+{
+  "model": "ice_cream.wrapper",
+  "pk": 3,
+  "fields": {
+    "is_published": true,
+    "title": "ÐžÐ±Ñ‘Ñ€Ñ‚ÐºÐ° Ñ Ð¿Ñ€Ð°Ð·Ð´Ð½Ð¸Ñ‡Ð½Ñ‹Ð¼Ð¸ Ð¿Ð¾Ð·Ð´Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸ÑÐ¼Ð¸"
+  }
+},
+{
+  "model": "ice_cream.wrapper",
+  "pk": 4,
+  "fields": {
+    "is_published": true,
+    "title": "ÐžÐ±Ñ‘Ñ€Ñ‚ÐºÐ°-Ð¾Ñ€Ð¸Ð³Ð°Ð¼Ð¸"
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 1,
+  "fields": {
+    "is_published": true,
+    "is_on_main": true,
+    "title": "Ð—Ð¾Ð»Ð¾Ñ‚Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ",
+    "description": "Ð¨Ð°Ñ€Ð¸ÐºÐ¸ Ñ‚Ð°Ð¸Ñ‚ÑÐ½ÑÐºÐ¾Ð³Ð¾ Ð²Ð°Ð½Ð¸Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ð³Ð¾, ÑˆÐ¾ÐºÐ¾Ð»Ð°Ð´ â€œAmedei Porcelanaâ€ Ð¸ Ð³Ñ€ÑƒÐ´Ð° ÑÐºÐ·Ð¾Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ñ… Ñ„Ñ€ÑƒÐºÑ‚Ð¾Ð². Ð’ÑÑ‘ ÑÑ‚Ð¾ Ð¿Ð¾ÐºÑ€Ñ‹Ñ‚Ð¾ Ð·Ð¾Ð»Ð¾Ñ‚Ð¾Ð¹ Ñ„Ð¾Ð»ÑŒÐ³Ð¾Ð¹, ÐµÑ‘ Ñ‚Ð¾Ð¶Ðµ Ð¿Ð¾Ð»Ð°Ð³Ð°ÐµÑ‚ÑÑ ÑÑŠÐµÑÑ‚ÑŒ.",
+    "wrapper": 3,
+    "category": 1,
+    "toppings": [
+      1
+    ]
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 2,
+  "fields": {
+    "is_published": true,
+    "is_on_main": false,
+    "title": "Ð“Ð¾Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ",
+    "description": "Ð§Ñ‘Ñ€Ð½Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ Ð² Ñ‡Ñ‘Ñ€Ð½Ð¾Ð¼ Ð²Ð°Ñ„ÐµÐ»ÑŒÐ½Ð¾Ð¼ Ñ€Ð¾Ð¶ÐºÐµ Ð´Ð»Ñ true black goths. Ð¡Ð¾ÑÑ‚Ð°Ð²: ÑÐ»Ð¸Ð²Ð¾Ñ‡Ð½Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ, Ð¼Ð¸Ð½Ð´Ð°Ð»ÑŒ, Ð°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¹ ÑƒÐ³Ð¾Ð»ÑŒ, Ñ‡ÐµÑ€Ð½Ð¾Ñ‚Ð°, Ð¼Ñ€Ð°Ðº, Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ð½Ð¸Ðµ.",
+    "wrapper": null,
+    "category": 1,
+    "toppings": [
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 3,
+  "fields": {
+    "is_published": true,
+    "is_on_main": false,
+    "title": "ÐœÐ¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ Ð¿Ð°ÑÑ‚Ð° ÐºÐ°Ñ€Ð±Ð¾Ð½Ð°Ñ€Ð°",
+    "description": "ÐŸÐ¾Ñ€Ñ†Ð¸Ñ Ð¼Ð°ÐºÐ°Ñ€Ð¾Ð½ Ð¿Ð¾Ð´ Ñ‚Ñ‘Ð¼Ð½Ñ‹Ð¼ ÑÐ¾ÑƒÑÐ¾Ð¼. ÐŸÐ°ÑÑ‚Ð° â€” Ð¸Ð· Ð²Ð°Ð½Ð¸Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ð³Ð¾, Ð¿Ñ€Ð¾Ð´Ð°Ð²Ð»ÐµÐ½Ð½Ð¾Ð³Ð¾ Ñ‡ÐµÑ€ÐµÐ· Ð¿Ñ€ÐµÑÑ Ñ Ð´Ñ‹Ñ€Ð¾Ñ‡ÐºÐ°Ð¼Ð¸, ÑÐ¾ÑƒÑ â€” Ð»Ð¸ÐºÑ‘Ñ€ Ñ Ð¾Ñ€ÐµÑ…Ð°Ð¼Ð¸. Buon appetito!",
+    "wrapper": null,
+    "category": 1,
+    "toppings": [
+      3,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 4,
+  "fields": {
+    "is_published": true,
+    "is_on_main": true,
+    "title": "Ð›ÑŽÐ¼Ð¸Ð½ÐµÑÑ†ÐµÐ½Ñ‚Ð½Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ",
+    "description": "Ð¡Ð»Ð¸Ð²Ð¾Ñ‡Ð½Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ Ñ Ð±ÐµÐ»ÐºÐ°Ð¼Ð¸, Ð°ÐºÑ‚Ð¸Ð²Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¼Ð¸ ÐºÐ°Ð»ÑŒÑ†Ð¸ÐµÐ¼. Ð¡Ð²ÐµÑ‚Ð¸Ñ‚ÑÑ, ÐµÑÐ»Ð¸ Ð¾Ð±Ð»Ð¸Ð·Ð½ÑƒÑ‚ÑŒ. ÐœÐ¾Ð¶Ð½Ð¾ Ð¿Ð¾Ð´Ð°Ð²Ð°Ñ‚ÑŒ Ð² Ñ‚Ñ‹ÐºÐ²Ðµ Ð½Ð° Ð¥ÑÐ»Ð»Ð¾ÑƒÐ¸Ð½ Ð¸Ð»Ð¸ ÐºÐ¾Ñ€Ð¼Ð¸Ñ‚ÑŒ ÑÐ¾Ð±Ð°ÐºÑƒ Ð‘Ð°ÑÐºÐµÑ€Ð²Ð¸Ð»ÐµÐ¹.",
+    "wrapper": 2,
+    "category": 1,
+    "toppings": [
+      2
+    ]
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 5,
+  "fields": {
+    "is_published": true,
+    "is_on_main": false,
+    "title": "Ð–Ð°Ñ€ÐµÐ½Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ",
+    "description": "Ð¨Ð°Ñ€Ð¸ÐºÐ¸ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ð³Ð¾ Ð¾Ð±Ð²Ð°Ð»Ð¸Ð²Ð°ÑŽÑ‚ ÑÐ¹Ñ†Ðµ Ð¸ Ð² Ð¿Ð°Ð½Ð¸Ñ€Ð¾Ð²ÐºÐµ, ÑÐ¸Ð»ÑŒÐ½Ð¾ Ð·Ð°Ð¼Ð¾Ñ€Ð°Ð¶Ð¸Ð²Ð°ÑŽÑ‚ Ð¸ Ð±Ñ‹ÑÑ‚Ñ€Ð¾ Ð¾Ð±Ð¶Ð°Ñ€Ð¸Ð²Ð°ÑŽÑ‚ Ð² Ñ€Ð°ÑÑ‚Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ð¼ Ð¼Ð°ÑÐ»Ðµ. Ð•Ð´ÑÑ‚ Ð±Ñ‹ÑÑ‚Ñ€Ð¾.",
+    "wrapper": null,
+    "category": 1,
+    "toppings": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 6,
+  "fields": {
+    "is_published": true,
+    "is_on_main": false,
+    "title": "Ð›ÑƒÐºÐ¾Ð²Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ",
+    "description": "ÐžÐ±Ð¶Ð°Ñ€ÐµÐ½Ð½Ñ‹Ð¹ Ð½Ð° Ð¾Ð»Ð¸Ð²ÐºÐ¾Ð²Ð¾Ð¼ Ð¼Ð°ÑÐ»Ðµ Ð»ÑƒÐº, ÑÐ°Ñ…Ð°Ñ€, Ð¼Ð¾Ð»Ð¾ÐºÐ¾, ÑÐ»Ð¸Ð²ÐºÐ¸, ÑÐ¹Ñ†Ð¾ Ð¸ Ð²Ð°Ð½Ð¸Ð»Ð¸Ð½ â€” Ð½ÐµÑ‚, ÑÑ‚Ð¾ Ð½Ðµ Ð´Ð¾Ð±Ð°Ð²ÐºÐ° Ðº Ð±Ð¸Ñ„ÑˆÑ‚ÐµÐºÑÑƒ, Ð° Ð¾Ñ‚Ð»Ð¸Ñ‡Ð½Ð¾Ðµ Ð»Ð°ÐºÐ¾Ð¼ÑÑ‚Ð²Ð¾.",
+    "wrapper": null,
+    "category": 1,
+    "toppings": [
+      6
+    ]
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 7,
+  "fields": {
+    "is_published": true,
+    "is_on_main": false,
+    "title": "ÐœÐ¾Ñ€ÑÐºÐ¾Ð¹ ÐºÐ¾ÐºÑ‚ÐµÐ¹Ð»ÑŒ",
+    "description": "ÐœÐ¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ ÐºÐ°Ðº Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ, Ð½Ð¾ Ð² ÑÐ¾ÑÑ‚Ð°Ð²Ðµ â€” Ð²Ð¾Ð´Ð¾Ñ€Ð¾ÑÐ»Ð¸ Ð¸ Ð¸ÐºÑ€Ð° Ð¼Ð¾Ñ€ÑÐºÐ¾Ð¹ Ñ€Ñ‹Ð±Ñ‹. ÐœÐ½Ð¾Ð³Ð¸Ð¼ Ð½Ñ€Ð°Ð²Ð¸Ñ‚ÑÑ.",
+    "wrapper": null,
+    "category": 1,
+    "toppings": [
+      2
+    ]
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 8,
+  "fields": {
+    "is_published": true,
+    "is_on_main": true,
+    "title": "Ð¢Ð¾Ð¼Ð°Ñ‚Ð½Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ",
+    "description": "Ð’ Ð¡Ð¡Ð¡Ð  Ð´ÐµÐ»Ð°Ð»Ð¸ Ð¸ Ñ‚Ð¾Ð¼Ð°Ñ‚Ð½Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ Ñ‚Ð¾Ð¶Ðµ. Ð’ÐºÑƒÑ ÑÐ¿ÐµÑ†Ð¸Ñ„Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹.",
+    "wrapper": 1,
+    "category": 2,
+    "toppings": [
+      1
+    ]
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 9,
+  "fields": {
+    "is_published": true,
+    "is_on_main": false,
+    "title": "Ð¤Ñ€ÑƒÐºÑ‚Ð¾Ð²Ð¾-ÑÐ³Ð¾Ð´Ð½Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ",
+    "description": "Ð¡Ñ‹Ñ€ÑŒÑ‘: ÑÐ»Ð¸Ð²ÐºÐ¸, Ð¿Ð°Ñ…Ñ‚Ð°, Ñ„Ñ€ÑƒÐºÑ‚Ñ‹ Ð¸ ÑÐ³Ð¾Ð´Ñ‹ Ð² ÑÐ²ÐµÐ¶ÐµÐ¼ Ð²Ð¸Ð´Ðµ, ÑÐ¸Ñ‡Ð½Ñ‹Ð¹ Ð¿Ð¾Ñ€Ð¾ÑˆÐ¾Ðº Ð¸Ð· ÐºÑƒÑ€Ð¸Ð½Ñ‹Ñ… ÑÐ¸Ñ†, Ð¿Ð°Ñ‚Ð¾ÐºÐ° ÐºÐ°Ñ€Ð°Ð¼ÐµÐ»ÑŒÐ½Ð°Ñ. ÐžÐ±Ñ‰ÐµÐµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¼Ð¸ÐºÑ€Ð¾Ð±Ð¾Ð² Ð² 1 Ð¼Ð» Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ð³Ð¾: Ð½Ðµ Ð±Ð¾Ð»ÐµÐµ 250 Ñ‚Ñ‹Ñ.",
+    "wrapper": null,
+    "category": 2,
+    "toppings": [
+      3
+    ]
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 10,
+  "fields": {
+    "is_published": true,
+    "is_on_main": true,
+    "title": "Ð­ÑÐºÐ¸Ð¼Ð¾",
+    "description": "ÐÐµÑƒÑÑ‚Ð°Ñ€ÐµÐ²Ð°ÑŽÑ‰Ð°Ñ ÐºÐ»Ð°ÑÑÐ¸ÐºÐ°: Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ Ð½Ð° Ð¿Ð°Ð»Ð¾Ñ‡ÐºÐµ, Ñ ÑˆÐ¾ÐºÐ¾Ð»Ð°Ð´Ð½Ð¾Ð¹ Ð³Ð»Ð°Ð·ÑƒÑ€ÑŒÑŽ. Ð­Ñ‚Ð¾ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ-ÐºÐ²ÐµÑÑ‚: ÑÑŠÐµÑÑ‚ÑŒ Ð¸ Ð½Ðµ ÑƒÑ€Ð¾Ð½Ð¸Ñ‚ÑŒ!",
+    "wrapper": null,
+    "category": 2,
+    "toppings": [
+      4,
+      6
+    ]
+  }
+},
+{
+  "model": "ice_cream.icecream",
+  "pk": 11,
+  "fields": {
+    "is_published": true,
+    "is_on_main": false,
+    "title": "ÐšÐ»Ð°ÑÑÐ¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð¿Ð»Ð¾Ð¼Ð±Ð¸Ñ€",
+    "description": "ÐÐ°ÑÑ‚Ð¾ÑÑ‰ÐµÐµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ, Ð´Ð»Ñ Ð¸ÑÑ‚Ð¸Ð½Ð½Ñ‹Ñ… Ñ†ÐµÐ½Ð¸Ñ‚ÐµÐ»ÐµÐ¹ Ð²ÐºÑƒÑÐ°. Ð•ÑÐ»Ð¸ Ð½Ð° ÑÑ‚Ð¾Ð»Ðµ Ð¿Ð¾ÑÐ²Ð»ÑÐµÑ‚ÑÑ Ð¿Ð»Ð¾Ð¼Ð±Ð¸Ñ€ â€” ÑÑ‚Ð¾ Ð½Ðµ Ð½Ð°Ð´Ð¾Ð»Ð³Ð¾.",
+    "wrapper": 4,
+    "category": 2,
+    "toppings": [
+      3,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2022-08-21T12:47:49.998Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "11",
+    "object_repr": "ÐšÐ»Ð°ÑÑÐ¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð¿Ð»Ð¾Ð¼Ð±Ð¸Ñ€",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2022-08-21T12:53:47.359Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "10",
+    "object_repr": "Ð­ÑÐºÐ¸Ð¼Ð¾",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2022-08-21T14:31:08.362Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "11",
+    "object_repr": "ÐšÐ»Ð°ÑÑÐ¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð¿Ð»Ð¾Ð¼Ð±Ð¸Ñ€",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2022-08-21T14:31:08.376Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "10",
+    "object_repr": "Ð­ÑÐºÐ¸Ð¼Ð¾",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2022-08-23T11:07:07.014Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "11",
+    "object_repr": "ÐšÐ»Ð°ÑÑÐ¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð¿Ð»Ð¾Ð¼Ð±Ð¸Ñ€",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2022-08-23T11:07:23.586Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "11",
+    "object_repr": "ÐšÐ»Ð°ÑÑÐ¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð¿Ð»Ð¾Ð¼Ð±Ð¸Ñ€",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2022-08-27T18:15:19.895Z",
+    "user": 2,
+    "content_type": 1,
+    "object_id": "2",
+    "object_repr": "ÐžÐ±Ñ‹Ñ‡Ð½Ð¾Ðµ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2022-08-27T18:18:26.994Z",
+    "user": 2,
+    "content_type": 1,
+    "object_id": "2",
+    "object_repr": "ÐžÐ±Ñ‹Ñ‡Ð½Ð¾Ðµ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2022-08-27T18:29:55.500Z",
+    "user": 2,
+    "content_type": 2,
+    "object_id": "1",
+    "object_repr": "Ð‘ÑƒÐ¼Ð°Ð¶Ð½Ð°Ñ Ñ Ñ‡ÐµÑ€ÐµÐ¿Ð°Ð¼Ð¸",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2022-08-27T19:11:14.021Z",
+    "user": 2,
+    "content_type": 2,
+    "object_id": "1",
+    "object_repr": "Ð‘ÑƒÐ¼Ð°Ð¶Ð½Ð°Ñ Ñ Ñ‡ÐµÑ€ÐµÐ¿Ð°Ð¼Ð¸",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2022-08-27T19:11:50.821Z",
+    "user": 2,
+    "content_type": 2,
+    "object_id": "1",
+    "object_repr": "Ð‘ÑƒÐ¼Ð°Ð¶Ð½Ð°Ñ Ñ Ñ‡ÐµÑ€ÐµÐ¿Ð°Ð¼Ð¸",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2022-08-27T19:18:03.080Z",
+    "user": 2,
+    "content_type": 1,
+    "object_id": "2",
+    "object_repr": "ÐžÐ±Ñ‹Ñ‡Ð½Ð¾Ðµ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2022-08-27T19:19:51.655Z",
+    "user": 2,
+    "content_type": 1,
+    "object_id": "2",
+    "object_repr": "ÐžÐ±Ñ‹Ñ‡Ð½Ð¾Ðµ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2022-08-30T16:24:15.604Z",
+    "user": 2,
+    "content_type": 2,
+    "object_id": "2",
+    "object_repr": "Ð¢ÐºÐ°Ð½ÐµÐ²Ð°Ñ Ð¾Ð±Ñ‘Ñ€Ñ‚ÐºÐ°-Ð±Ð°Ð½Ð´Ð°Ð½Ð°",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2022-08-30T16:24:32.054Z",
+    "user": 2,
+    "content_type": 2,
+    "object_id": "3",
+    "object_repr": "ÐžÐ±Ñ‘Ñ€Ñ‚ÐºÐ° Ñ Ð¿Ñ€Ð°Ð·Ð´Ð½Ð¸Ñ‡Ð½Ñ‹Ð¼Ð¸ Ð¿Ð¾Ð·Ð´Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸ÑÐ¼Ð¸",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2022-08-30T16:25:15.845Z",
+    "user": 2,
+    "content_type": 2,
+    "object_id": "4",
+    "object_repr": "ÐžÐ±Ñ‘Ñ€Ñ‚ÐºÐ°-Ð¾Ñ€Ð¸Ð³Ð°Ð¼Ð¸",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2022-08-30T17:09:30.561Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "4",
+    "object_repr": "Ð›ÑŽÐ¼Ð¸Ð½ÐµÑÑ†ÐµÐ½Ñ‚Ð½Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u0451\\u0440\\u0442\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2022-08-30T17:09:43.091Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Ð—Ð¾Ð»Ð¾Ñ‚Ð¾Ðµ Ð¼Ð¾Ñ€Ð¾Ð¶ÐµÐ½Ð¾Ðµ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u0451\\u0440\\u0442\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2022-08-30T17:10:13.458Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "11",
+    "object_repr": "ÐšÐ»Ð°ÑÑÐ¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð¿Ð»Ð¾Ð¼Ð±Ð¸Ñ€",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u0451\\u0440\\u0442\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 1,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 1,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 1,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 1,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add Ð¾Ð±Ñ‘Ñ€Ñ‚ÐºÑƒ",
+    "content_type": 2,
+    "codename": "add_wrapper"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change Ð¾Ð±Ñ‘Ñ€Ñ‚ÐºÑƒ",
+    "content_type": 2,
+    "codename": "change_wrapper"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete Ð¾Ð±Ñ‘Ñ€Ñ‚ÐºÑƒ",
+    "content_type": 2,
+    "codename": "delete_wrapper"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view Ð¾Ð±Ñ‘Ñ€Ñ‚ÐºÑƒ",
+    "content_type": 2,
+    "codename": "view_wrapper"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add ice cream",
+    "content_type": 3,
+    "codename": "add_icecream"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change ice cream",
+    "content_type": 3,
+    "codename": "change_icecream"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete ice cream",
+    "content_type": 3,
+    "codename": "delete_icecream"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view ice cream",
+    "content_type": 3,
+    "codename": "view_icecream"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add Ð¿Ð¾ÑÑ‹Ð¿ÐºÑƒ",
+    "content_type": 4,
+    "codename": "add_topping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change Ð¿Ð¾ÑÑ‹Ð¿ÐºÑƒ",
+    "content_type": 4,
+    "codename": "change_topping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete Ð¿Ð¾ÑÑ‹Ð¿ÐºÑƒ",
+    "content_type": 4,
+    "codename": "delete_topping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view Ð¿Ð¾ÑÑ‹Ð¿ÐºÑƒ",
+    "content_type": 4,
+    "codename": "view_topping"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 5,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 5,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 5,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 5,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 6,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 6,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 6,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 6,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 7,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 7,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 7,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 7,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 8,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 8,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 8,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 8,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 9,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 9,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 9,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 9,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 10,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 10,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 10,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 10,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$7wwqOI9F1CE7jzGTvcskO0$d78XoBkBk4AQqdzg1n9WriFAtEQf1EA0B3dwh0EZ0VQ=",
+    "last_login": "2022-08-30T16:23:37.131Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-08-16T00:07:14.046Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5pka5iec1j6xxqxneevegxco1uim7raf",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlmxHX-Wkj5nsNbeDQ4gR4qTCnF3EikFtDPz3ltE3NYSt8ZLnEhchRKXX5YwP7kegh5Y77PMc12XKckjkadtcpiJX7ez_Tso2Mq-RkPJs-5c4JEUsc_WZYIdAPdeJ4vYM5nRBsMAAZK1nVMMDMaBBi8-X_r8N84:1oNk5K:o9-ttYShM3C8QAby9JcmiwQ2bmFHPiaOgwQMaD-WzlQ",
+    "expire_date": "2022-08-30T00:05:30.123Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7a5x830jqbzu864r5gjfrp6os843r2l5",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hA7MDi4dO8ZCDCDVA1NSrsy3l2bdKHb_977LxXiutSwdpnDyOqsQB1-txTzQ9oG-B7bbdJ5ass8Jr0peqddXyeW52V3_w5q7PVbC7Ej70_GHF0mQrYeBUWMBTIFfQGGPHgrCQeHCJjQx1KMLWCYLKn3B8RHNxY:1oPoTn:Lbe6zpcvahGlbqmJzE6lmgocH-9_msAqroE3kzvLNXs",
+    "expire_date": "2022-09-04T17:11:19.868Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "axp01ain62fvpjghfpk9fr307zfc8obn",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hA7MDi4dO8ZCDCDVA1NSrsy3l2bdKHb_977LxXiutSwdpnDyOqsQB1-txTzQ9oG-B7bbdJ5ass8Jr0peqddXyeW52V3_w5q7PVbC7Ej70_GHF0mQrYeBUWMBTIFfQGGPHgrCQeHCJjQx1KMLWCYLKn3B8RHNxY:1oT41Z:GjiOaEL2u2u36ewPOK3JwyT-hS_JdxVyhGIGElW9L54",
+    "expire_date": "2022-09-13T16:23:37.163Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "f6ye5nltle6vi7o4jat6bqoe6u4qvemv",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlmxHX-Wkj5nsNbeDQ4gR4qTCnF3EikFtDPz3ltE3NYSt8ZLnEhchRKXX5YwP7kegh5Y77PMc12XKckjkadtcpiJX7ez_Tso2Mq-RkPJs-5c4JEUsc_WZYIdAPdeJ4vYM5nRBsMAAZK1nVMMDMaBBi8-X_r8N84:1oNf4p:fTy3Ab82R2lADUAXzK_hOdvh59WVttqI2bhOgmEEXeg",
+    "expire_date": "2022-08-29T18:44:39.144Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z030kvj1oy7swvz2ehakn6x3rttx52yf",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hA7MDi4dO8ZCDCDVA1NSrsy3l2bdKHb_977LxXiutSwdpnDyOqsQB1-txTzQ9oG-B7bbdJ5ass8Jr0peqddXyeW52V3_w5q7PVbC7Ej70_GHF0mQrYeBUWMBTIFfQGGPHgrCQeHCJjQx1KMLWCYLKn3B8RHNxY:1oO1QX:efNKX3WTPL6XZhEL_l8O3EazEE0Mcg6TR1vJVxtHaaE",
+    "expire_date": "2022-08-30T18:36:33.607Z"
+  }
+}
+]
